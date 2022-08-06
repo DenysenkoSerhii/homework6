@@ -286,6 +286,29 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <p class="footer-text">Підпишіться на розсилку</p>
+          <div class="footerform-conteriner">
+            <label class="footer-form-field">
+              <span class="footer-form-input-wrapper">
+                <input
+                  type="email"
+                  name="user_email"
+                  class="footer-form-input"
+                  placeholder="E-mail"
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                  title="mail@mail.com"
+                />
+              </span>
+            </label>
+
+            <button type="submit" class="footer-form-submit">
+              Подписатся
+              <span class="footer-button-icon"></span>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
